@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5AFF7D4-A827-45D4-8B81-DC573D26052B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Domain", "..\Safra.Domain\Safra.Domain.csproj", "{4DC583B4-3638-4E04-9ED7-1E37D1207510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Domain.Core", "..\Safra.Domain.Core\Safra.Domain.Core.csproj", "{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Infra", "..\Safra.Infra\Safra.Infra.csproj", "{1C4353F6-02E4-4532-936C-A20FE4BDD669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.SharedKernel", "..\Safra.SharedKernel\Safra.SharedKernel.csproj", "{5B230FDD-C1C9-4A31-8834-29471F225DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.APIShares", "..\Safra.APIShares\Safra.APIShares.csproj", "{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.UnitTest", "..\Safra.UnitTest\Safra.UnitTest.csproj", "{AA58A3DE-B330-49AB-8CFE-E9D985193E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC583B4-3638-4E04-9ED7-1E37D1207510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC583B4-3638-4E04-9ED7-1E37D1207510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC583B4-3638-4E04-9ED7-1E37D1207510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC583B4-3638-4E04-9ED7-1E37D1207510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4353F6-02E4-4532-936C-A20FE4BDD669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4353F6-02E4-4532-936C-A20FE4BDD669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4353F6-02E4-4532-936C-A20FE4BDD669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4353F6-02E4-4532-936C-A20FE4BDD669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B230FDD-C1C9-4A31-8834-29471F225DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B230FDD-C1C9-4A31-8834-29471F225DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B230FDD-C1C9-4A31-8834-29471F225DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B230FDD-C1C9-4A31-8834-29471F225DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA58A3DE-B330-49AB-8CFE-E9D985193E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA58A3DE-B330-49AB-8CFE-E9D985193E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA58A3DE-B330-49AB-8CFE-E9D985193E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA58A3DE-B330-49AB-8CFE-E9D985193E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC583B4-3638-4E04-9ED7-1E37D1207510} = {57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}
+		{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E} = {57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}
+		{1C4353F6-02E4-4532-936C-A20FE4BDD669} = {57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}
+		{5B230FDD-C1C9-4A31-8834-29471F225DFC} = {57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}
+		{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54} = {57F52A4F-1064-40CE-9F8F-6DA502D9FE4F}
+		{AA58A3DE-B330-49AB-8CFE-E9D985193E17} = {C5AFF7D4-A827-45D4-8B81-DC573D26052B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86F72F7C-66D9-49AE-9819-FC47CD6CC70D}
+	EndGlobalSection
+EndGlobal

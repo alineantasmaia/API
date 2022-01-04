@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Safra.Domain.Core/1.0.0": {
+        "dependencies": {
+          "Safra.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Safra.Domain.Core.dll": {}
+        }
+      },
+      "Safra.Domain/1.0.0": {
+        "runtime": {
+          "Safra.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Safra.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Safra.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

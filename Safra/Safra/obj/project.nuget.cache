@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+OjvQgfr66sChh0/qPdwfY/ncWEGUnDTU0FwQcwvMQixkH0GifjoSR5qTq16wnnSp/2fPjsbLHJNks8LOezeAg==",
+  "success": true,
+  "projectFilePath": "C:\\Safra\\Safra\\Safra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aline\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
