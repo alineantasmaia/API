@@ -13,6 +13,7 @@ C:\API\Safra\Safra.Domain\bin\Debug\net5.0\Safra.Domain.deps.json
 C:\API\Safra\Safra.Domain\bin\Debug\net5.0\Safra.Domain.dll
 C:\API\Safra\Safra.Domain\bin\Debug\net5.0\ref\Safra.Domain.dll
 C:\API\Safra\Safra.Domain\bin\Debug\net5.0\Safra.Domain.pdb
+C:\API\Safra\Safra.Domain\obj\Debug\net5.0\Safra.Domain.csproj.AssemblyReference.cache
 C:\API\Safra\Safra.Domain\obj\Debug\net5.0\Safra.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\API\Safra\Safra.Domain\obj\Debug\net5.0\Safra.Domain.AssemblyInfoInputs.cache
 C:\API\Safra\Safra.Domain\obj\Debug\net5.0\Safra.Domain.AssemblyInfo.cs

@@ -14,6 +14,7 @@ C:\API\Safra\Safra.SharedKernel\bin\Debug\net5.0\Safra.SharedKernel.deps.json
 C:\API\Safra\Safra.SharedKernel\bin\Debug\net5.0\Safra.SharedKernel.dll
 C:\API\Safra\Safra.SharedKernel\bin\Debug\net5.0\ref\Safra.SharedKernel.dll
 C:\API\Safra\Safra.SharedKernel\bin\Debug\net5.0\Safra.SharedKernel.pdb
+C:\API\Safra\Safra.SharedKernel\obj\Debug\net5.0\Safra.SharedKernel.csproj.AssemblyReference.cache
 C:\API\Safra\Safra.SharedKernel\obj\Debug\net5.0\Safra.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
 C:\API\Safra\Safra.SharedKernel\obj\Debug\net5.0\Safra.SharedKernel.AssemblyInfoInputs.cache
 C:\API\Safra\Safra.SharedKernel\obj\Debug\net5.0\Safra.SharedKernel.AssemblyInfo.cs
