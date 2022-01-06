@@ -12,14 +12,16 @@ jobs:
       - run: 'Write-Host ''Hello, Windows'''
   swagger_docs:
     docker:
-      - image: 'swaggerapi/swagger-ui'        
+      - image: 'swaggerapi/swagger-ui'
     steps:
       - run:
-          name: "swagger_docs"
-          command: |
+          name: deploy swagger docs
+          command: >
                     docker exec -it api apk --no-cache add gcc musl-dev
                     docker exec -it api go get -u github.com/go-swagger/go-swagger/cmd/swagger
-                    docker exec -it api /go/bin/swagger generate spec -o ./swagger.json    
+                    docker exec -it api /go/bin/swagger generate spec -o ./swagger.json
+                    docker cp api:/go/src/github.com/opensimsim/api-v3/swagger.json doc
+                    aws --region ap-southeast-2 s3 sync doc s3://doc.opensimsim.cloud/v3 --acl public-read
 workflows:
   my-workflow:
     jobs:
