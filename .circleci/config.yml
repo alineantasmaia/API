@@ -1,24 +1,15 @@
-version: 2.1
+version: '2.1'
 orbs:
-  heroku: circleci/heroku@1.2.6
-  windows: circleci/windows@2.4.1
+  win: circleci/windows@2.4
 jobs:
   build:
-    description: Build application with Release configuration
     executor:
-      name: windows/default
+      name: win/default
+      size: medium
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - dotnet-packages-v1-{{ checksum "demoDotnet.csproj" }}
-      - run:
-          name: "Install project dependencies"
-          command: dotnet.exe restore
-      - run:
-          name: "Build Application according to some given configuration"
-          command: dotnet.exe build --configuration Release
+      - run: 'Write-Host ''Hello, Windows'''
 workflows:
-  heroku_deploy:
+  my-workflow:
     jobs:
-      - heroku/deploy-via-git
+      - build
