@@ -1,6 +1,7 @@
 version: '2.1'
 orbs:
   win: circleci/windows@2.4
+  swagger_docs: opensimsim-dev/swagger_docs@1.0.0
 jobs:
   build:
     executor:
@@ -9,7 +10,18 @@ jobs:
     steps:
       - checkout
       - run: 'Write-Host ''Hello, Windows'''
+  swagger_docs:
+    docker:
+      - image: 'swaggerapi/swagger-ui'        
+    steps:
+      - run:
+          name: "swagger_docs"
+          command: |
+                    docker exec -it api apk --no-cache add gcc musl-dev
+                    docker exec -it api go get -u github.com/go-swagger/go-swagger/cmd/swagger
+                    docker exec -it api /go/bin/swagger generate spec -o ./swagger.json    
 workflows:
   my-workflow:
     jobs:
       - build
+      - swagger_docs
