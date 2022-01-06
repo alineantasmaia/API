@@ -1,0 +1,15 @@
+version: '2.1'
+orbs:
+  win: circleci/windows@2.4
+jobs:
+  build:
+    executor:
+      name: win/default
+      size: medium
+    steps:
+      - checkout
+      - run: 'Write-Host ''Hello, Windows'''
+workflows:
+  my-workflow:
+    jobs:
+      - build

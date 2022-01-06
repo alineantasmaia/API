@@ -21,6 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.UnitTest", "..\Safra.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_itens", "solution_itens", "{E57F5202-DDF3-452D-A96E-8BC9148FABC0}"
 	ProjectSection(SolutionItems) = preProject
+		config.yml = config.yml
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
