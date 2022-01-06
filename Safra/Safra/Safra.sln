@@ -7,17 +7,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57F52A4F-106
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5AFF7D4-A827-45D4-8B81-DC573D26052B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Domain", "..\Safra.Domain\Safra.Domain.csproj", "{4DC583B4-3638-4E04-9ED7-1E37D1207510}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.Domain", "..\Safra.Domain\Safra.Domain.csproj", "{4DC583B4-3638-4E04-9ED7-1E37D1207510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Domain.Core", "..\Safra.Domain.Core\Safra.Domain.Core.csproj", "{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.Domain.Core", "..\Safra.Domain.Core\Safra.Domain.Core.csproj", "{8805A8C8-2E61-4A86-9EE6-0DFB36C7CF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.Infra", "..\Safra.Infra\Safra.Infra.csproj", "{1C4353F6-02E4-4532-936C-A20FE4BDD669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.Infra", "..\Safra.Infra\Safra.Infra.csproj", "{1C4353F6-02E4-4532-936C-A20FE4BDD669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.SharedKernel", "..\Safra.SharedKernel\Safra.SharedKernel.csproj", "{5B230FDD-C1C9-4A31-8834-29471F225DFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.SharedKernel", "..\Safra.SharedKernel\Safra.SharedKernel.csproj", "{5B230FDD-C1C9-4A31-8834-29471F225DFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.APIShares", "..\Safra.APIShares\Safra.APIShares.csproj", "{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.APIShares", "..\Safra.APIShares\Safra.APIShares.csproj", "{9F636DDE-80BE-41C9-A0F3-013AC6CAAF54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safra.UnitTest", "..\Safra.UnitTest\Safra.UnitTest.csproj", "{AA58A3DE-B330-49AB-8CFE-E9D985193E17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safra.UnitTest", "..\Safra.UnitTest\Safra.UnitTest.csproj", "{AA58A3DE-B330-49AB-8CFE-E9D985193E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_itens", "solution_itens", "{E57F5202-DDF3-452D-A96E-8BC9148FABC0}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
