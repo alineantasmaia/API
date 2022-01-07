@@ -7,6 +7,7 @@ using Safra.Infra;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Net.Http.Headers;
 
 namespace Safra.APIShares
 {
@@ -52,13 +53,14 @@ namespace Safra.APIShares
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            app.UseStaticFiles();
+            app.UseCors(policy => policy.WithOrigins("https://safraapishares.herokuapp.com/", "https://safraapishares.herokuapp.com/openapi/ui").AllowAnyMethod().WithHeaders(HeaderNames.ContentType));
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapCarter();
             });
 
-            app.UseStaticFiles();
-            app.UseCors();
+            
         }
     }
 }

@@ -22,7 +22,12 @@ RUN dotnet publish "Safra.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-# Padrão de container ASP.NET
+
+RUN useradd -m alinepinheiro30
+USER alinepinheiro30
+# Padrï¿½o de container ASP.NET
 # ENTRYPOINT ["dotnet", "Safra.dll"]
-# Opção utilizada pelo Heroku
+# Opï¿½ï¿½o utilizada pelo Heroku
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet Safra.dll
+
+ 
