@@ -7,7 +7,7 @@ namespace Safra.APIShares.Modules
     {
         public HomeModule()
         {
-            Get("/",(req,res)=> { res.StatusCode = 409; return res.WriteAsync("====> Carter On!"); });
+            Get("/",(req,res)=> { res.StatusCode = 409; return res.WriteAsync("====> API  desenvolvida para fins de teste."); });
         }
     }
 }
